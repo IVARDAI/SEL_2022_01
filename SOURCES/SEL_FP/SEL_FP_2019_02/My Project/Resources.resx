@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColLenSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ColLenSelect.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="DIALOG_1000_D" xml:space="preserve">
+    <value>FP_App.DoErrorMsgBox: Dialogbox konnte nicht erscheinen</value>
+    <comment>FP_App.DoMyMsgBox</comment>
+  </data>
+  <data name="DIALOG_1000_GB" xml:space="preserve">
+    <value>FP_App.DoErrorMsgBox: Error by showing dialog.</value>
+    <comment>FP_App.DoMyMsgBox</comment>
+  </data>
+  <data name="DIALOG_1000_H" xml:space="preserve">
+    <value>FP_App.DoErrorMsgBox: Hiba z üzenet megjelenítése közben.</value>
+    <comment>FP_App.DoMyMsgBox</comment>
+  </data>
+  <data name="DIALOG_1018_D" xml:space="preserve">
+    <value>Parameters zur Database Connections fehlen.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1018_GB" xml:space="preserve">
+    <value>Database Connection Parameters are not given.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1018_H" xml:space="preserve">
+    <value>Nincsenek megadva a kapcsolat paraméterei</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1019_D" xml:space="preserve">
+    <value>Database konnte nicht erreichen.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1019_GB" xml:space="preserve">
+    <value>Wrong database connection.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1019_H" xml:space="preserve">
+    <value>A megadott kapcsolatot nem tudtam megnyitni.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1020_D" xml:space="preserve">
+    <value>Das angegebene Database ist kein SELEXPED Database</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1020_GB" xml:space="preserve">
+    <value>This is not a SELEXPED database.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1020_H" xml:space="preserve">
+    <value>A megadott adatbázis nem Selexped adatbázis.</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1021_D" xml:space="preserve">
+    <value>Programms Versionsnumber (@0) ist ungleich mit Database Versionsnumber (@1)</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1021_GB" xml:space="preserve">
+    <value>Program versionsnumber (@0) is not the same with the versionsnumber of the database (@1)</value>
+    <comment>FP_DC.Connectstring_Check</comment>
+  </data>
+  <data name="DIALOG_1021_H" xml:space="preserve">
+    <value>A program verziószáma (@0) nem egyezik meg az adatbázis verziószámával (@1).</value>
+    <comment>FP_DC.ConnectString_Check</comment>
+  </data>
+  <data name="DIALOG_1_D" xml:space="preserve">
+    <value>Parameter 'TERMINAL' wurde nicht eingegeben. Das Programm kann nicht gestartet werden.</value>
+  </data>
+  <data name="DIALOG_1_GB" xml:space="preserve">
+    <value>Parameter 'TERMINAL' not specified. Program will be aborted.</value>
+  </data>
+  <data name="DIALOG_1_H" xml:space="preserve">
+    <value>Nincs megadva a 'TERMINAL' paraméter. A program így nem indítható el.</value>
+  </data>
+  <data name="DIALOG_2_D" xml:space="preserve">
+    <value>Connection Test wurde ERFOLGREICH beendet.</value>
+    <comment>FP_DB_Place.btnTest_Click</comment>
+  </data>
+  <data name="DIALOG_2_GB" xml:space="preserve">
+    <value>Connection Test SUCCESFULL</value>
+    <comment>FP_DB_Place.btnTest_Click</comment>
+  </data>
+  <data name="DIALOG_2_H" xml:space="preserve">
+    <value>A tesztek SIKERESEN befejeződtek.</value>
+    <comment>FP_DB_Place.btnTest_Click</comment>
+  </data>
+  <data name="DIALOG_31_D" xml:space="preserve">
+    <value>Internal Programmfehler. Code: @0. @1</value>
+    <comment>FP_App.DoErrorMsgBox</comment>
+  </data>
+  <data name="DIALOG_31_GB" xml:space="preserve">
+    <value>Internal Error. Code: @0. @1</value>
+    <comment>FP_App.DoErrorMsgBox</comment>
+  </data>
+  <data name="DIALOG_31_H" xml:space="preserve">
+    <value>Futásidejű hiba. Hibakód: @0. @1</value>
+    <comment>FP_App.DoErrorMsgBox</comment>
+  </data>
+  <data name="DIALOG_3_D" xml:space="preserve">
+    <value>Az Ön képernyőjén a szövegek nagyítása be van kapcsolva. Ez torzíthatja és jelentősen lassíthatja a program megjelenítését.</value>
+  </data>
+  <data name="DIALOG_3_GB" xml:space="preserve">
+    <value>Az Ön képernyőjén a szövegek nagyítása be van kapcsolva. Ez torzíthatja és jelentősen lassíthatja a program megjelenítését.</value>
+  </data>
+  <data name="DIALOG_3_H" xml:space="preserve">
+    <value>Az Ön képernyőjén a szövegek nagyítása be van kapcsolva. Ez torzíthatja és jelentősen lassíthatja a program megjelenítését.</value>
+  </data>
+  <data name="DIALOG_4_D" xml:space="preserve">
+    <value>Database konnte nicht erreichen. Bitte überprüfen Sie den Netzwerk. Auf "OK" ich probiere es nochmals. </value>
+  </data>
+  <data name="DIALOG_4_GB" xml:space="preserve">
+    <value>Database connection error. Try again.</value>
+  </data>
+  <data name="DIALOG_4_H" xml:space="preserve">
+    <value>Nem sikerült kapcsolódni az adatbázishoz. Lehet, hogy nincs hálózati kapcsolat vagy internet kapcsolat. Kérem ellenőrizze. Az OK lenyomására ismét megpróbálok kapcsolódni.</value>
+  </data>
+  <data name="DIALOG_7_D" xml:space="preserve">
+    <value>Eingabe zwingend</value>
+  </data>
+  <data name="DIALOG_7_GB" xml:space="preserve">
+    <value>Field is mandatory</value>
+  </data>
+  <data name="DIALOG_7_H" xml:space="preserve">
+    <value>Adatmegadás kötelező</value>
+  </data>
+  <data name="DIALOG_8_D" xml:space="preserve">
+    <value>Parameter "Terminal" darf maximale Länge ist 10 Character.</value>
+  </data>
+  <data name="DIALOG_8_GB" xml:space="preserve">
+    <value>Max length of parameter "Terminal" is 10 character.</value>
+  </data>
+  <data name="DIALOG_8_H" xml:space="preserve">
+    <value>A Terminál azonosító max. 10 karakterből állhat (és nem tartalmazhat szóközöket).</value>
+  </data>
+  <data name="DIALOG_9_D" xml:space="preserve">
+    <value>Dieser Terminalname ist schon besetzt. Bitte geben Sie einen anderen Name.</value>
+  </data>
+  <data name="DIALOG_9_GB" xml:space="preserve">
+    <value>This terminal name already exists. Please enter a new name.</value>
+  </data>
+  <data name="DIALOG_9_H" xml:space="preserve">
+    <value>Ez a terminál már foglalt, kérem adjon meg egy másik értéket.</value>
+  </data>
+  <data name="FP_DB_PLACE_10_D" xml:space="preserve">
+    <value>Computer Name:</value>
+  </data>
+  <data name="FP_DB_PLACE_10_GB" xml:space="preserve">
+    <value>Computer name:</value>
+  </data>
+  <data name="FP_DB_PLACE_10_H" xml:space="preserve">
+    <value>Számítógép neve:</value>
+  </data>
+  <data name="FP_DB_PLACE_11_D" xml:space="preserve">
+    <value>Programmverzeichniss:</value>
+  </data>
+  <data name="FP_DB_PLACE_11_GB" xml:space="preserve">
+    <value>Startup path:</value>
+  </data>
+  <data name="FP_DB_PLACE_11_H" xml:space="preserve">
+    <value>Program könyvtár:</value>
+  </data>
+  <data name="FP_DB_PLACE_12_D" xml:space="preserve">
+    <value>Microsoft SQL Server Connectivity Parameters:</value>
+  </data>
+  <data name="FP_DB_PLACE_12_GB" xml:space="preserve">
+    <value>Connect to Microsoft SQL Server</value>
+  </data>
+  <data name="FP_DB_PLACE_12_H" xml:space="preserve">
+    <value>Microsoft SQL Server beállításai</value>
+  </data>
+  <data name="FP_DB_PLACE_13_D" xml:space="preserve">
+    <value>SELEXPED Einstellungen</value>
+  </data>
+  <data name="FP_DB_PLACE_13_GB" xml:space="preserve">
+    <value>Connect to SELEXPED</value>
+  </data>
+  <data name="FP_DB_PLACE_13_H" xml:space="preserve">
+    <value>SELEXPED beállításai</value>
+  </data>
+  <data name="FP_DB_PLACE_14_D" xml:space="preserve">
+    <value>Verbindung zu Datenbank</value>
+  </data>
+  <data name="FP_DB_PLACE_14_GB" xml:space="preserve">
+    <value>Connect to database</value>
+  </data>
+  <data name="FP_DB_PLACE_14_H" xml:space="preserve">
+    <value>Kapcsolódás az adatbázishoz</value>
+  </data>
+  <data name="FP_DB_PLACE_1_D" xml:space="preserve">
+    <value>SQL-Server:</value>
+  </data>
+  <data name="FP_DB_PLACE_1_GB" xml:space="preserve">
+    <value>SQL-Server:</value>
+  </data>
+  <data name="FP_DB_PLACE_1_H" xml:space="preserve">
+    <value>SQL-szerver:</value>
+    <comment>FP_DB_Place</comment>
+  </data>
+  <data name="FP_DB_PLACE_2_D" xml:space="preserve">
+    <value>Database Name:</value>
+  </data>
+  <data name="FP_DB_PLACE_2_GB" xml:space="preserve">
+    <value>Database Name:</value>
+  </data>
+  <data name="FP_DB_PLACE_2_H" xml:space="preserve">
+    <value>Adatbázis neve:</value>
+  </data>
+  <data name="FP_DB_PLACE_3_D" xml:space="preserve">
+    <value>Windows NT Integrated Security</value>
+  </data>
+  <data name="FP_DB_PLACE_3_GB" xml:space="preserve">
+    <value>Use Windows NT Integrated security</value>
+  </data>
+  <data name="FP_DB_PLACE_3_H" xml:space="preserve">
+    <value>Windows felhasználónév használata</value>
+  </data>
+  <data name="FP_DB_PLACE_4_D" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="FP_DB_PLACE_4_GB" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="FP_DB_PLACE_4_H" xml:space="preserve">
+    <value>Felhasználó:</value>
+  </data>
+  <data name="FP_DB_PLACE_5_D" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="FP_DB_PLACE_5_GB" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="FP_DB_PLACE_5_H" xml:space="preserve">
+    <value>Jelszó:</value>
+  </data>
+  <data name="FP_DB_PLACE_6_D" xml:space="preserve">
+    <value>Test Connection</value>
+  </data>
+  <data name="FP_DB_PLACE_6_GB" xml:space="preserve">
+    <value>Test Connection</value>
+  </data>
+  <data name="FP_DB_PLACE_6_H" xml:space="preserve">
+    <value>Kapcsolat tesztelése</value>
+  </data>
+  <data name="FP_DB_PLACE_7_D" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FP_DB_PLACE_7_GB" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FP_DB_PLACE_7_H" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FP_DB_PLACE_8_D" xml:space="preserve">
+    <value>Hilfe zur Installation...</value>
+  </data>
+  <data name="FP_DB_PLACE_8_GB" xml:space="preserve">
+    <value>Download Install Guide...</value>
+  </data>
+  <data name="FP_DB_PLACE_8_H" xml:space="preserve">
+    <value>Telepítő útmutató letöltése...</value>
+  </data>
+  <data name="FP_DB_PLACE_9_D" xml:space="preserve">
+    <value>Terminal:</value>
+  </data>
+  <data name="FP_DB_PLACE_9_GB" xml:space="preserve">
+    <value>Terminal:</value>
+  </data>
+  <data name="FP_DB_PLACE_9_H" xml:space="preserve">
+    <value>Terminál:</value>
+  </data>
+  <data name="INPUTBOX_1_D" xml:space="preserve">
+    <value>Bitte geben Sie einen einheitlichen Identifierkennzeichen zu diesem Rechner (max 10 Buchstaben):</value>
+  </data>
+  <data name="INPUTBOX_1_GB" xml:space="preserve">
+    <value>This terminal hasn't got unique ID yet. Please type an unique ID the box below (max. 10 character):</value>
+  </data>
+  <data name="INPUTBOX_1_H" xml:space="preserve">
+    <value>Kérem adjon meg ennek a számítógépnek egy max 10 jegyű egyedi azonosítót:</value>
+  </data>
+  <data name="LINK_INSTALL_GUIDE_1_D" xml:space="preserve">
+    <value>C:\Selester\HELP\D\SELEXPED_Hilfe_zur_Installation.doc</value>
+  </data>
+  <data name="LINK_INSTALL_GUIDE_1_GB" xml:space="preserve">
+    <value>C:\Selester\HELP\GB\SELEXPED_Installations_Guide.doc</value>
+  </data>
+  <data name="LINK_INSTALL_GUIDE_1_H" xml:space="preserve">
+    <value>C:\Selester\HELP\H\SELEXPED_telepítö_segédlet.doc</value>
+  </data>
+  <data name="LocalDB_SQL_CREATEDB_SEL" xml:space="preserve">
+    <value>CREATE TABLE LDB_Params(
+	Code nvarchar(20) NOT NULL	CONSTRAINT PK_LDB_Params PRIMARY KEY,
+	IntParam int NOT NULL,
+	StrParam ntext NOT NULL
+)
+
+#END_BAT#
+
+CREATE UNIQUE INDEX LDB_Params_Code ON LDB_Params (Code)
+
+#END_BAT#
+
+INSERT INTO LDB_Params	(Code, IntParam, StrParam)
+			VALUES		('LOCAL_DB_VERS', 0, '')
+
+#END_BAT#
+
+CREATE TABLE RS_Fields(
+	FromTable int NOT NULL,
+	ServerObject_Prefix nvarchar(50) NOT NULL,
+	SubPrefix nvarchar(50) NOT NULL,
+	SeqNum int NOT NULL,
+	FieldName nvarchar(128) NOT NULL,
+	LabelName nvarchar(128) NOT NULL,
+	Parent nvarchar(128) NOT NULL,
+	CreateAtRuntime bit NOT NULL,
+	CreateAtRuntime_FieldType nvarchar(20) NOT NULL,
+	Mandatory bit NOT NULL,
+	Locked bit NOT NULL,
+	Visible bit NOT NULL,
+	xType_VB nvarchar(50) NOT NULL,
+	F_Format nvarchar(128) NOT NULL,
+	DT_FixText_Key nvarchar(50) NOT NULL,
+	DT_WHERE2 nvarchar(255) NOT NULL,
+	DT_ID_Field nvarchar(128) NOT NULL,
+	COLORS nvarchar(128) NOT NULL,
+	BG_Image nvarchar(50) NOT NULL,
+	BG_Toggle bit NOT NULL,
+	Label_Text nvarchar(128) NOT NULL,
+	ShowInGRID bit NOT NULL,
+	SavePoint int NOT NULL,
+	Forced_NextField nvarchar(128) NOT NULL,
+	Tag ntext NOT NULL,
+	TabIndex int NOT NULL,
+	TabStop bit NULL
+)
+
+#END_BAT#
+
+CREATE INDEX RS_Fields_ServerObject_Prefix ON RS_Fields (ServerObject_Prefix)
+
+#END_BAT#
+
+CREATE INDEX RS_Fields_SubPrefix ON RS_Fields (SubPrefix)
+
+#END_BAT#
+
+CREATE INDEX RS_Fields_SeqNum ON RS_Fields (SeqNum)
+
+#END_BAT#
+
+CREATE TABLE RS_ARRANGE(
+	FromTable int NOT NULL,
+	ServerObject_Prefix nvarchar(50) NOT NULL,
+	SubPrefix nvarchar(50) NOT NULL,
+	SeqNum int NOT NULL,
+	ControlName nvarchar(128) NOT NULL,
+	ArrangeType nvarchar(50) NOT NULL,
+	P1_Control nvarchar(50) NOT NULL,
+	P1_Koo int NOT NULL,
+	P1_SpaceInPixel int NOT NULL,
+	P2_Control nvarchar(50) NOT NULL,
+	P2_Koo int NOT NULL,
+	P2_SpaceInPixel int NOT NULL,
+	Percentage int NOT NULL
+)
+
+#END_BAT#
+
+CREATE INDEX RS_ARRANGE_ServerObject_Prefix ON RS_ARRANGE (ServerObject_Prefix)
+
+#END_BAT#
+
+CREATE INDEX RS_ARRANGE_SubPrefix ON RS_ARRANGE (ServerObject_Prefix)
+
+#END_BAT#
+
+CREATE INDEX RS_ARRANGE_SeqNum ON RS_ARRANGE (SeqNum)
+
+#END_BAT#
+
+CREATE TABLE FixText(
+	Code	nvarchar(255)	NOT NULL,
+	Text	ntext			NOT NULL
+)
+
+#END_BAT#
+
+CREATE UNIQUE INDEX FixText_Code ON FixText (Code)
+
+#END_BAT#
+
+CREATE TABLE AddressTypes(
+	ID				int				NOT NULL,
+	Name			nvarchar(128)	NOT NULL,
+	ShortName		nvarchar(20)	NOT NULL,
+	ParentTable_ID	int				NOT NULL,
+	IsCustomer		bit				NOT NULL,
+	IsCarrier		bit				NOT NULL,
+	IsTerminal		bit				NOT NULL,
+	IsCustom		bit				NOT NULL,
+	IsAgent			bit				NOT NULL
+)
+
+#END_BAT#
+
+CREATE UNIQUE INDEX AddressTypes_ID ON AddressTypes (ID)
+
+#END_BAT#
+
+CREATE TABLE VB_SEQ(
+	Language		nvarchar(3)		NOT NULL,
+	SEQ_Key			nvarchar(255)	NOT NULL,
+	Number			int				NOT NULL,
+	Text1			nvarchar(255)	NOT NULL,
+	Text2			nvarchar(255)	NOT NULL,
+	Text3			nvarchar(255)	NOT NULL,
+	Text4			nvarchar(255)	NOT NULL
+)
+
+#END_BAT#
+
+CREATE INDEX VB_SEQ_SEQ_Key ON VB_SEQ (SEQ_Key)
+
+#END_BAT#
+
+CREATE INDEX VB_SEQ_Number  ON VB_SEQ (Number)
+
+#END_BAT#
+
+CREATE TABLE Doc_Local_Images(
+	ID				int				NOT NULL,
+	Doc_Type		nvarchar(128)	NOT NULL,
+	Doc_Code		nvarchar(128)	NOT NULL,
+	Doc_Image		image			NOT NULL,
+	Doc_Date		datetime		NOT NULL
+)
+
+#END_BAT#
+
+CREATE TABLE WORD_Docs_Block_Defs(
+	REPORT_Identifier		nvarchar(255)	NOT NULL,
+	REPORT_Date				datetime		NOT NULL,
+	ParentTable				nvarchar(255)	NOT NULL,
+	Doc_Type				nvarchar(128)	NOT NULL,
+	Doc_Language			nvarchar(3)		NOT NULL,
+	Doc_FileName_Format		nvarchar(255)	NOT NULL,
+	Doc_NoShowInternal		bit				NOT NULL,
+	DOCMAN_SAVE				bit				NOT NULL,
+	DOCMAN_SAVE_PDF			bit				NOT NULL,
+	DOCMAN_SAVE_DOCX		bit				NOT NULL,
+	DOCMAN_Type				nvarchar(255)	NOT NULL,
+	DOCMAN_RefNum			nvarchar(20)	NOT NULL,
+	DOCMAN_Descr			nvarchar(255)	NOT NULL
+)
+
+#END_BAT#
+
+CREATE TABLE WORD_Docs_Block_Defs_L(
+	REPORT_Identifier		nvarchar(255)	NOT NULL,
+	BlockName				nvarchar(255)	NOT NULL,
+	FieldName				nvarchar(4000)	NOT NULL,
+	Params					ntext			NOT NULL
+)
+
+#END_BAT#
+
+CREATE TABLE WORD_Docs_Block_Ranges(
+	REPORT_Identifier		nvarchar(255)	NOT NULL,
+	BlockName				nvarchar(128)	NOT NULL,
+	Range_Start				int				NOT NULL,
+	Range_End				int				NOT NULL,
+	Skip_Block				bit				NOT NULL
+)
+
+#END_BAT#
+
+CREATE TABLE SERVER_OBJECTS_FIELDPROPERTIES_HEAD(
+	ObjectName				nvarchar(255)	NOT NULL,
+	ObjectType				int				NOT NULL
+)
+
+#END_BAT#
+
+CREATE TABLE SERVER_OBJECTS_FIELDPROPERTIES(
+	ObjectName				nvarchar(255)	NOT NULL,
+	SeqNum					int				NOT NULL,
+	FieldName				nvarchar(255)	NOT NULL,
+	xtype					int				NOT NULL,
+	xtype_VB				nvarchar(32)	NOT NULL,
+	xlength					int				NOT NULL
+)
+#END_BAT#</value>
+  </data>
+</root>

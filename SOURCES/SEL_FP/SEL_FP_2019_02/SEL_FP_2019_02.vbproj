@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E37884D1-C988-46F0-91FF-88CA7DD242B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SEL_FP_2019_02</RootNamespace>
+    <AssemblyName>SEL_FP_2019_02</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SEL_FP_2019_02.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SEL_FP_2019_02.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml">
+      <HintPath>..\..\..\3thParty\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.ImageCore">
+      <HintPath>..\..\..\3thParty\Dynamsoft.ImageCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.PDF">
+      <HintPath>..\..\..\3thParty\Dynamsoft.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Dynamsoft.Twain">
+      <HintPath>..\..\..\3thParty\Dynamsoft.Twain.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\3thParty\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Outlook\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Word\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.2.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\ReportViewer\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Toolkit.Forms.UI.Controls.WebView">
+      <HintPath>..\..\..\3thParty\Microsoft.Toolkit.Forms.UI.Controls.WebView.dll</HintPath>
+    </Reference>
+    <Reference Include="MSDN.HtmlEditorControl">
+      <HintPath>..\..\..\3thParty\HtmlEditorControl\C#\HtmlEditorControl\bin\Debug\MSDN.HtmlEditorControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\3thParty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Stack 5\Packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.FileSystem.Primitives" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BASE_ELEMENTS\FP_CASH_FORMS.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_BASE_DATA_ACCESS_RIGHTS\CLASSES\SEL_BASE_DATA_ACCESS_RIGHT_PANEL.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_CL\CLASSES\CL_Panel.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_CL\FORMS\SEL_CL_DETAIL.Designer.vb">
+      <DependentUpon>SEL_CL_DETAIL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_CL\FORMS\SEL_CL_DETAIL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\CLASSES\DOCMAN_Doc_Panel.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_ARCHIV_MSG.Designer.vb">
+      <DependentUpon>SEL_DOCMAN_ARCHIV_MSG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_ARCHIV_MSG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_DOCTYPES.Designer.vb">
+      <DependentUpon>SEL_DOCMAN_DOCTYPES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_DOCTYPES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_DOCMAN\MODULES\SEL_DOCMAN_M.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_ISO\CLASSES\SEL_ISO_PANEL.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_ISO\FORMS\SEL_ISO_DIALOG.designer.vb">
+      <DependentUpon>SEL_ISO_DIALOG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_ISO\FORMS\SEL_ISO_DIALOG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_ISO\MODULES\SEL_ISO_M.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_MODULE_NOT_INSTALLED_PANEL\CLASSES\SEL_MODULE_NOT_INSTALLED_PANEL.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_PAY_ON_DELIVERY\CLASSES\PayOnDelivery_Panel.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\CLASSES\SEL_TASKMAN_HISTORY_Panel.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_FRM.Designer.vb">
+      <DependentUpon>SEL_TASKMAN_FRM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_FRM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_GROUPS.Designer.vb">
+      <DependentUpon>SEL_TASKMAN_GROUPS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_GROUPS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_REMINDER_HISTORY.Designer.vb">
+      <DependentUpon>SEL_TASKMAN_REMINDER_HISTORY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_REMINDER_HISTORY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK_TYPES.Designer.vb">
+      <DependentUpon>SEL_TASKMAN_TASK_TYPES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK_TYPES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\MODULES\SEL_TASKMAN_M.vb" />
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK.Designer.vb">
+      <DependentUpon>SEL_TASKMAN_TASK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASSES\DB_Objects\CL_AddressTypes.vb" />
+    <Compile Include="CLASSES\DB_Objects\CL_Statuscodes.vb" />
+    <Compile Include="CLASSES\DB_Objects\CL_TASK_TYPES.vb" />
+    <Compile Include="CLASSES\FP_DoFilter_With_PARAMS.vb" />
+    <Compile Include="CLASSES\FP_EMAIL.vb" />
+    <Compile Include="CLASSES\FP_LocalDB.vb" />
+    <Compile Include="CLASSES\FP_Map_TomTom.vb" />
+    <Compile Include="CLASSES\FP_MenuItem.vb" />
+    <Compile Include="CLASSES\FP.vb" />
+    <Compile Include="CLASSES\FP_App.vb" />
+    <Compile Include="CLASSES\FP_Control.vb" />
+    <Compile Include="CLASSES\FP_ControlObject.vb" />
+    <Compile Include="CLASSES\FP_CUST_Address.vb" />
+    <Compile Include="CLASSES\FP_DataConnect.vb" />
+    <Compile Include="CLASSES\FP_EXCEL.vb" />
+    <Compile Include="CLASSES\FP_FieldLogics.vb" />
+    <Compile Include="CLASSES\FP_Form.vb">
+    </Compile>
+    <Compile Include="CLASSES\FP_GRIDVIEW.vb" />
+    <Compile Include="CLASSES\FP_Outlook.vb" />
+    <Compile Include="CLASSES\FP_PDF.vb" />
+    <Compile Include="CLASSES\FP_PictureBox.vb" />
+    <Compile Include="CLASSES\FP_Scan.vb" />
+    <Compile Include="CLASSES\FP_SELECT_CONTROL.vb" />
+    <Compile Include="CLASSES\FP_SEQ.vb" />
+    <Compile Include="CLASSES\FP_Simple_Edit_With_PARAMS.vb" />
+    <Compile Include="CLASSES\FP_SpecControl.vb" />
+    <Compile Include="CLASSES\FP_WORD_X.vb" />
+    <Compile Include="CLASSES\SPECIAL_CONTROLS\FP_VerticalButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_ErrorList.Designer.vb">
+      <DependentUpon>FP_ErrorList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_ErrorList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_INFO.Designer.vb">
+      <DependentUpon>FP_INFO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_INFO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_DataImport.Designer.vb">
+      <DependentUpon>FP_DataImport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_DataImport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_DB_Place.designer.vb">
+      <DependentUpon>FP_DB_Place.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_DB_Place.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Map.Designer.vb">
+      <DependentUpon>FP_Map.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Menu_TABLET.Designer.vb">
+      <DependentUpon>FP_Menu_TABLET.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Menu_TABLET.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_SplashForm.designer.vb">
+      <DependentUpon>FP_SplashForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_SplashForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASSES\FP_HTML_EDITOR_TEXTBOX.vb" />
+    <Compile Include="FORMS\SEL_INV_SELECT_DOCS.designer.vb">
+      <DependentUpon>SEL_INV_SELECT_DOCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\SEL_INV_SELECT_DOCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NATIONAL_SPEC\CLASSES\FP_ADDRESS_Panel.vb" />
+    <Compile Include="NATIONAL_SPEC\MODULES\NATIONAL_SPEC_M.vb" />
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Colors.designer.vb">
+      <DependentUpon>FP_Services_Colors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Colors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_DebugInfoPanel.Designer.vb">
+      <DependentUpon>FP_Services_DebugInfoPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_DebugInfoPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_DoFilter.Designer.vb">
+      <DependentUpon>FP_DoFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_DoFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_HELP.Designer.vb">
+      <DependentUpon>FP_HELP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_HELP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Login.Designer.vb">
+      <DependentUpon>FP_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Menu.Designer.vb">
+      <DependentUpon>FP_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_MsgBox.designer.vb">
+      <DependentUpon>FP_MsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_MsgBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Print.designer.vb">
+      <DependentUpon>FP_Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_ProgressForm.designer.vb">
+      <DependentUpon>FP_ProgressForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_ProgressForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_SELECT_Language.Designer.vb">
+      <DependentUpon>FP_SELECT_Language.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_SELECT_Language.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Simple_Edit.Designer.vb">
+      <DependentUpon>FP_Simple_Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Simple_Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_Simple_SELECT.designer.vb">
+      <DependentUpon>FP_Simple_SELECT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_Simple_SELECT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FP_KeyGen.Designer.vb">
+      <DependentUpon>FP_KeyGen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_KeyGen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLASSES\FP_Word.vb" />
+    <Compile Include="FORMS\FP_SELECT_PICTURE.designer.vb">
+      <DependentUpon>FP_SELECT_PICTURE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FP_SELECT_PICTURE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULES\FP_Globals.vb" />
+    <Compile Include="MODULES\Services.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Select_Control_Setup.Designer.vb">
+      <DependentUpon>FP_Services_Select_Control_Setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Select_Control_Setup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Setup.designer.vb">
+      <DependentUpon>FP_Services_Setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICE_OBJECTS\FP_Services_Setup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_CL\FORMS\SEL_CL_DETAIL.resx">
+      <DependentUpon>SEL_CL_DETAIL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_ARCHIV_MSG.resx">
+      <DependentUpon>SEL_DOCMAN_ARCHIV_MSG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_DOCMAN\FORMS\SEL_DOCMAN_DOCTYPES.resx">
+      <DependentUpon>SEL_DOCMAN_DOCTYPES.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_ISO\FORMS\SEL_ISO_DIALOG.resx">
+      <DependentUpon>SEL_ISO_DIALOG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_FRM.resx">
+      <DependentUpon>SEL_TASKMAN_FRM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_GROUPS.resx">
+      <DependentUpon>SEL_TASKMAN_GROUPS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_REMINDER_HISTORY.resx">
+      <DependentUpon>SEL_TASKMAN_REMINDER_HISTORY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK.resx">
+      <DependentUpon>SEL_TASKMAN_TASK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BASE_ELEMENTS\SEL_TASKMAN\FORMS\SEL_TASKMAN_TASK_TYPES.resx">
+      <DependentUpon>SEL_TASKMAN_TASK_TYPES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLASSES\SPECIAL_CONTROLS\FP_VerticalButton.resx">
+      <DependentUpon>FP_VerticalButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_ErrorList.resx">
+      <DependentUpon>FP_ErrorList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_INFO.resx">
+      <DependentUpon>FP_INFO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_Menu_TABLET.resx">
+      <DependentUpon>FP_Menu_TABLET.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_SELECT_PICTURE.resx">
+      <DependentUpon>FP_SELECT_PICTURE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_SplashForm.resx">
+      <DependentUpon>FP_SplashForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\SEL_INV_SELECT_DOCS.resx">
+      <DependentUpon>SEL_INV_SELECT_DOCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICE_OBJECTS\FP_Services_Select_Control_Setup.resx">
+      <DependentUpon>FP_Services_Select_Control_Setup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICE_OBJECTS\FP_Services_Setup.resx">
+      <DependentUpon>FP_Services_Setup.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FORMS\FP_DataImport.resx">
+      <DependentUpon>FP_DataImport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_DB_Place.resx">
+      <DependentUpon>FP_DB_Place.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICE_OBJECTS\FP_Services_Colors.resx">
+      <DependentUpon>FP_Services_Colors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SERVICE_OBJECTS\FP_Services_DebugInfoPanel.resx">
+      <DependentUpon>FP_Services_DebugInfoPanel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_DoFilter.resx">
+      <DependentUpon>FP_DoFilter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_HELP.resx">
+      <DependentUpon>FP_HELP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_Login.resx">
+      <DependentUpon>FP_Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_Menu.resx">
+      <DependentUpon>FP_Menu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_MsgBox.resx">
+      <DependentUpon>FP_MsgBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_ProgressForm.resx">
+      <DependentUpon>FP_ProgressForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_SELECT_Language.resx">
+      <DependentUpon>FP_SELECT_Language.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_Simple_Edit.resx">
+      <DependentUpon>FP_Simple_Edit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FP_Simple_SELECT.resx">
+      <DependentUpon>FP_Simple_SELECT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FORMS\FP_KeyGen.resx">
+      <DependentUpon>FP_KeyGen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BASE_ELEMENTS\SEL_CL\MODULES\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColLenSelect.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

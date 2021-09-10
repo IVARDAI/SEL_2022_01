@@ -1,0 +1,3966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabelName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LabelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 391</value>
+  </data>
+  <data name="LabelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelName.TabIndex" type="System.Int32, mscorlib">
+    <value>1118</value>
+  </data>
+  <data name="&gt;&gt;LabelName.Name" xml:space="preserve">
+    <value>LabelName</value>
+  </data>
+  <data name="&gt;&gt;LabelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelName.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;LabelName.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LabelName_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LabelName_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 391</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelName_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="LabelName_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="LabelName_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="LabelName_Label.Text" xml:space="preserve">
+    <value>Label Name:</value>
+  </data>
+  <data name="&gt;&gt;LabelName_Label.Name" xml:space="preserve">
+    <value>LabelName_Label</value>
+  </data>
+  <data name="&gt;&gt;LabelName_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelName_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;LabelName_Label.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="ServerObject_Prefix_Label.Text" xml:space="preserve">
+    <value>Server Object Prefix:</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix_Label.Name" xml:space="preserve">
+    <value>ServerObject_Prefix_Label</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix_Label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ServerObject_Prefix.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ServerObject_Prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 7</value>
+  </data>
+  <data name="ServerObject_Prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>606, 22</value>
+  </data>
+  <data name="ServerObject_Prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix.Name" xml:space="preserve">
+    <value>ServerObject_Prefix</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ServerObject_Prefix.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CreateAtRuntime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CreateAtRuntime.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="CreateAtRuntime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 125</value>
+  </data>
+  <data name="CreateAtRuntime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="CreateAtRuntime.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime.Name" xml:space="preserve">
+    <value>CreateAtRuntime</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateAtRuntime_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="CreateAtRuntime_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 98</value>
+  </data>
+  <data name="CreateAtRuntime_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="CreateAtRuntime_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="CreateAtRuntime_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="CreateAtRuntime_Label.Text" xml:space="preserve">
+    <value>Runtime</value>
+  </data>
+  <data name="CreateAtRuntime_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_Label.Name" xml:space="preserve">
+    <value>CreateAtRuntime_Label</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_Label.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Mandatory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Mandatory.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Mandatory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 464</value>
+  </data>
+  <data name="Mandatory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="Mandatory.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;Mandatory.Name" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="&gt;&gt;Mandatory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mandatory.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Mandatory.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Mandatory_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Mandatory_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 439</value>
+  </data>
+  <data name="Mandatory_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Mandatory_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="Mandatory_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Mandatory_Label.Text" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="Mandatory_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Mandatory_Label.Name" xml:space="preserve">
+    <value>Mandatory_Label</value>
+  </data>
+  <data name="&gt;&gt;Mandatory_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mandatory_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Mandatory_Label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="P_Locked_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_Locked_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 439</value>
+  </data>
+  <data name="P_Locked_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_Locked_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="P_Locked_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P_Locked_Label.Text" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="P_Locked_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;P_Locked_Label.Name" xml:space="preserve">
+    <value>P_Locked_Label</value>
+  </data>
+  <data name="&gt;&gt;P_Locked_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Locked_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_Locked_Label.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="P_Visible.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="P_Visible.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="P_Visible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 464</value>
+  </data>
+  <data name="P_Visible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="P_Visible.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="&gt;&gt;P_Visible.Name" xml:space="preserve">
+    <value>P_Visible</value>
+  </data>
+  <data name="&gt;&gt;P_Visible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Visible.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_Visible.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="P_Visible_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_Visible_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 439</value>
+  </data>
+  <data name="P_Visible_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_Visible_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="P_Visible_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P_Visible_Label.Text" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="P_Visible_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;P_Visible_Label.Name" xml:space="preserve">
+    <value>P_Visible_Label</value>
+  </data>
+  <data name="&gt;&gt;P_Visible_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Visible_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_Visible_Label.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="P_Locked.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="P_Locked.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="P_Locked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 464</value>
+  </data>
+  <data name="P_Locked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="P_Locked.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;P_Locked.Name" xml:space="preserve">
+    <value>P_Locked</value>
+  </data>
+  <data name="&gt;&gt;P_Locked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Locked.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_Locked.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="xType_VB_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="xType_VB_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 98</value>
+  </data>
+  <data name="xType_VB_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="xType_VB_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="xType_VB_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="xType_VB_Label.Text" xml:space="preserve">
+    <value>xType VB</value>
+  </data>
+  <data name="xType_VB_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;xType_VB_Label.Name" xml:space="preserve">
+    <value>xType_VB_Label</value>
+  </data>
+  <data name="&gt;&gt;xType_VB_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;xType_VB_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;xType_VB_Label.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="F_Format_TRIM_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_TRIM_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 439</value>
+  </data>
+  <data name="F_Format_TRIM_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_TRIM_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_TRIM_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_TRIM_Label.Text" xml:space="preserve">
+    <value>TRIM</value>
+  </data>
+  <data name="F_Format_TRIM_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM_Label.Name" xml:space="preserve">
+    <value>F_Format_TRIM_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM_Label.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="F_Format_TRIM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F_Format_TRIM.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="F_Format_TRIM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 464</value>
+  </data>
+  <data name="F_Format_TRIM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_TRIM.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM.Name" xml:space="preserve">
+    <value>F_Format_TRIM</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TRIM.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="F_Format_UCASE_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_UCASE_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 439</value>
+  </data>
+  <data name="F_Format_UCASE_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_UCASE_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_UCASE_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_UCASE_Label.Text" xml:space="preserve">
+    <value>UCASE</value>
+  </data>
+  <data name="F_Format_UCASE_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE_Label.Name" xml:space="preserve">
+    <value>F_Format_UCASE_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE_Label.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="F_Format_UCASE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F_Format_UCASE.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="F_Format_UCASE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 464</value>
+  </data>
+  <data name="F_Format_UCASE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_UCASE.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE.Name" xml:space="preserve">
+    <value>F_Format_UCASE</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_UCASE.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 439</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.Text" xml:space="preserve">
+    <value>Minus Allowed</value>
+  </data>
+  <data name="F_Format_MinusAllowed_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed_Label.Name" xml:space="preserve">
+    <value>F_Format_MinusAllowed_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed_Label.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="F_Format_MinusAllowed.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F_Format_MinusAllowed.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="F_Format_MinusAllowed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 464</value>
+  </data>
+  <data name="F_Format_MinusAllowed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_MinusAllowed.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed.Name" xml:space="preserve">
+    <value>F_Format_MinusAllowed</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_MinusAllowed.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="F_Format_Format.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_Format.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 184</value>
+  </data>
+  <data name="F_Format_Format.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="F_Format_Format.TabIndex" type="System.Int32, mscorlib">
+    <value>1111</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format.Name" xml:space="preserve">
+    <value>F_Format_Format</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="F_Format_Format_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_Format_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 184</value>
+  </data>
+  <data name="F_Format_Format_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_Format_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="F_Format_Format_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_Format_Label.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format_Label.Name" xml:space="preserve">
+    <value>F_Format_Format_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Format_Label.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="DT_FixText_Key_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DT_FixText_Key_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 299</value>
+  </data>
+  <data name="DT_FixText_Key_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="DT_FixText_Key_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="DT_FixText_Key_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="DT_FixText_Key_Label.Text" xml:space="preserve">
+    <value>DT FixText Key:</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key_Label.Name" xml:space="preserve">
+    <value>DT_FixText_Key_Label</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key_Label.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType_Label.Text" xml:space="preserve">
+    <value>FieldType:</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType_Label.Name" xml:space="preserve">
+    <value>CreateAtRuntime_FieldType_Label</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType_Label.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 46</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="CreateAtRuntime_FieldType.TabIndex" type="System.Int32, mscorlib">
+    <value>1102</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType.Name" xml:space="preserve">
+    <value>CreateAtRuntime_FieldType</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;CreateAtRuntime_FieldType.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="DT_WHERE2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DT_WHERE2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 322</value>
+  </data>
+  <data name="DT_WHERE2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="DT_WHERE2.TabIndex" type="System.Int32, mscorlib">
+    <value>1116</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2.Name" xml:space="preserve">
+    <value>DT_WHERE2</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="DT_WHERE2_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DT_WHERE2_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 322</value>
+  </data>
+  <data name="DT_WHERE2_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="DT_WHERE2_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="DT_WHERE2_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="DT_WHERE2_Label.Text" xml:space="preserve">
+    <value>DT WHERE2:</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2_Label.Name" xml:space="preserve">
+    <value>DT_WHERE2_Label</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_WHERE2_Label.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Colors_ForeColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_ForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 69</value>
+  </data>
+  <data name="Colors_ForeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="Colors_ForeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1103</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor.Name" xml:space="preserve">
+    <value>Colors_ForeColor</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Colors_ForeColor_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_ForeColor_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 69</value>
+  </data>
+  <data name="Colors_ForeColor_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Colors_ForeColor_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Colors_ForeColor_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Colors_ForeColor_Label.Text" xml:space="preserve">
+    <value>ForeColor:</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor_Label.Name" xml:space="preserve">
+    <value>Colors_ForeColor_Label</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_ForeColor_Label.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="BG_Image_STR_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BG_Image_STR_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 230</value>
+  </data>
+  <data name="BG_Image_STR_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="BG_Image_STR_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="BG_Image_STR_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="BG_Image_STR_Label.Text" xml:space="preserve">
+    <value>BG Image:</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR_Label.Name" xml:space="preserve">
+    <value>BG_Image_STR_Label</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR_Label.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="BG_Toggle_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BG_Toggle_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 439</value>
+  </data>
+  <data name="BG_Toggle_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="BG_Toggle_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="BG_Toggle_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="BG_Toggle_Label.Text" xml:space="preserve">
+    <value>BG Toggle</value>
+  </data>
+  <data name="BG_Toggle_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle_Label.Name" xml:space="preserve">
+    <value>BG_Toggle_Label</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle_Label.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BG_Toggle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BG_Toggle.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="BG_Toggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 464</value>
+  </data>
+  <data name="BG_Toggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="BG_Toggle.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle.Name" xml:space="preserve">
+    <value>BG_Toggle</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;BG_Toggle.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Label_Text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Label_Text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 414</value>
+  </data>
+  <data name="Label_Text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="Label_Text.TabIndex" type="System.Int32, mscorlib">
+    <value>1119</value>
+  </data>
+  <data name="&gt;&gt;Label_Text.Name" xml:space="preserve">
+    <value>Label_Text</value>
+  </data>
+  <data name="&gt;&gt;Label_Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Text.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Label_Text.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Label_Text_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Label_Text_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 414</value>
+  </data>
+  <data name="Label_Text_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Label_Text_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Label_Text_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Label_Text_Label.Text" xml:space="preserve">
+    <value>Label Text:</value>
+  </data>
+  <data name="&gt;&gt;Label_Text_Label.Name" xml:space="preserve">
+    <value>Label_Text_Label</value>
+  </data>
+  <data name="&gt;&gt;Label_Text_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Text_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Label_Text_Label.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="ShowInGRID.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ShowInGRID.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="ShowInGRID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 126</value>
+  </data>
+  <data name="ShowInGRID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="ShowInGRID.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID.Name" xml:space="preserve">
+    <value>ShowInGRID</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ShowInGRID_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowInGRID_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 98</value>
+  </data>
+  <data name="ShowInGRID_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ShowInGRID_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="ShowInGRID_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="ShowInGRID_Label.Text" xml:space="preserve">
+    <value>In Grid</value>
+  </data>
+  <data name="ShowInGRID_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID_Label.Name" xml:space="preserve">
+    <value>ShowInGRID_Label</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ShowInGRID_Label.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 492</value>
+  </data>
+  <data name="Btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_OK.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>10001</value>
+  </data>
+  <data name="&gt;&gt;Btn_OK.Name" xml:space="preserve">
+    <value>Btn_OK</value>
+  </data>
+  <data name="&gt;&gt;Btn_OK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_OK.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_OK.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Btn_Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 492</value>
+  </data>
+  <data name="Btn_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_Delete.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>10002</value>
+  </data>
+  <data name="&gt;&gt;Btn_Delete.Name" xml:space="preserve">
+    <value>Btn_Delete</value>
+  </data>
+  <data name="&gt;&gt;Btn_Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Delete.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Delete.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Btn_Help.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 492</value>
+  </data>
+  <data name="Btn_Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_Help.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_Help.TabIndex" type="System.Int32, mscorlib">
+    <value>10003</value>
+  </data>
+  <data name="&gt;&gt;Btn_Help.Name" xml:space="preserve">
+    <value>Btn_Help</value>
+  </data>
+  <data name="&gt;&gt;Btn_Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Help.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Help.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="GRID_Fields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 31</value>
+  </data>
+  <data name="GRID_Fields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 408</value>
+  </data>
+  <data name="GRID_Fields.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;GRID_Fields.Name" xml:space="preserve">
+    <value>GRID_Fields</value>
+  </data>
+  <data name="&gt;&gt;GRID_Fields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GRID_Fields.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;GRID_Fields.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FieldName_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FieldName_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 29</value>
+  </data>
+  <data name="FieldName_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="FieldName_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="FieldName_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="FieldName_Label.Text" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="&gt;&gt;FieldName_Label.Name" xml:space="preserve">
+    <value>FieldName_Label</value>
+  </data>
+  <data name="&gt;&gt;FieldName_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FieldName_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;FieldName_Label.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Btn_DTFixtTextKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 299</value>
+  </data>
+  <data name="Btn_DTFixtTextKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_DTFixtTextKey.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_DTFixtTextKey.TabIndex" type="System.Int32, mscorlib">
+    <value>100019</value>
+  </data>
+  <data name="&gt;&gt;Btn_DTFixtTextKey.Name" xml:space="preserve">
+    <value>Btn_DTFixtTextKey</value>
+  </data>
+  <data name="&gt;&gt;Btn_DTFixtTextKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_DTFixtTextKey.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_DTFixtTextKey.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="DT_FixText_Key.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="DT_FixText_Key.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 299</value>
+  </data>
+  <data name="DT_FixText_Key.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="DT_FixText_Key.TabIndex" type="System.Int32, mscorlib">
+    <value>1115</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key.Name" xml:space="preserve">
+    <value>DT_FixText_Key</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_FixText_Key.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="Tag_Params.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 253</value>
+  </data>
+  <data name="Tag_Params.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Tag_Params.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Tag_Params.TabIndex" type="System.Int32, mscorlib">
+    <value>100018</value>
+  </data>
+  <data name="&gt;&gt;Tag_Params.Name" xml:space="preserve">
+    <value>Tag_Params</value>
+  </data>
+  <data name="&gt;&gt;Tag_Params.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tag_Params.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Tag_Params.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="P_Tag_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_Tag_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 253</value>
+  </data>
+  <data name="P_Tag_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_Tag_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="P_Tag_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P_Tag_Label.Text" xml:space="preserve">
+    <value>Tag:</value>
+  </data>
+  <data name="&gt;&gt;P_Tag_Label.Name" xml:space="preserve">
+    <value>P_Tag_Label</value>
+  </data>
+  <data name="&gt;&gt;P_Tag_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Tag_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;P_Tag_Label.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="P_Tag.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_Tag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 253</value>
+  </data>
+  <data name="P_Tag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="P_Tag.TabIndex" type="System.Int32, mscorlib">
+    <value>1114</value>
+  </data>
+  <data name="&gt;&gt;P_Tag.Name" xml:space="preserve">
+    <value>P_Tag</value>
+  </data>
+  <data name="&gt;&gt;P_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Tag.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;P_Tag.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 53</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 22</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum.Name" xml:space="preserve">
+    <value>RS_FIELDS_DEBUG_SeqNum</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 29</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 22</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.Text" xml:space="preserve">
+    <value>SeqNum</value>
+  </data>
+  <data name="RS_FIELDS_DEBUG_SeqNum_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum_Label.Name" xml:space="preserve">
+    <value>RS_FIELDS_DEBUG_SeqNum_Label</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;RS_FIELDS_DEBUG_SeqNum_Label.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Forced_NextField_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Forced_NextField_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 161</value>
+  </data>
+  <data name="Forced_NextField_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Forced_NextField_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Forced_NextField_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Forced_NextField_Label.Text" xml:space="preserve">
+    <value>Forced Next Field:</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_Label.Name" xml:space="preserve">
+    <value>Forced_NextField_Label</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_Label.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="SavePoint_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="SavePoint_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 138</value>
+  </data>
+  <data name="SavePoint_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="SavePoint_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="SavePoint_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="SavePoint_Label.Text" xml:space="preserve">
+    <value>SavePoint:</value>
+  </data>
+  <data name="&gt;&gt;SavePoint_Label.Name" xml:space="preserve">
+    <value>SavePoint_Label</value>
+  </data>
+  <data name="&gt;&gt;SavePoint_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SavePoint_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;SavePoint_Label.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="SavePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="SavePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 138</value>
+  </data>
+  <data name="SavePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="SavePoint.TabIndex" type="System.Int32, mscorlib">
+    <value>1109</value>
+  </data>
+  <data name="&gt;&gt;SavePoint.Name" xml:space="preserve">
+    <value>SavePoint</value>
+  </data>
+  <data name="&gt;&gt;SavePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SavePoint.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;SavePoint.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="Btn_Up.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Btn_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 492</value>
+  </data>
+  <data name="Btn_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_Up.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>100016</value>
+  </data>
+  <data name="&gt;&gt;Btn_Up.Name" xml:space="preserve">
+    <value>Btn_Up</value>
+  </data>
+  <data name="&gt;&gt;Btn_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Up.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Up.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Btn_Down.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Btn_Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 492</value>
+  </data>
+  <data name="Btn_Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_Down.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_Down.TabIndex" type="System.Int32, mscorlib">
+    <value>100015</value>
+  </data>
+  <data name="&gt;&gt;Btn_Down.Name" xml:space="preserve">
+    <value>Btn_Down</value>
+  </data>
+  <data name="&gt;&gt;Btn_Down.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Down.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Down.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="P_Parent_STR_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_Parent_STR_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="P_Parent_STR_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_Parent_STR_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="P_Parent_STR_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P_Parent_STR_Label.Text" xml:space="preserve">
+    <value>Parent:</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR_Label.Name" xml:space="preserve">
+    <value>P_Parent_STR_Label</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR_Label.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 439</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.Text" xml:space="preserve">
+    <value>NOSPACE</value>
+  </data>
+  <data name="F_Format_NOSPACE_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE_Label.Name" xml:space="preserve">
+    <value>F_Format_NOSPACE_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE_Label.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="F_Format_NOSPACE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F_Format_NOSPACE.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="F_Format_NOSPACE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 464</value>
+  </data>
+  <data name="F_Format_NOSPACE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_NOSPACE.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE.Name" xml:space="preserve">
+    <value>F_Format_NOSPACE</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NOSPACE.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="DataField.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="DataField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 53</value>
+  </data>
+  <data name="DataField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="DataField.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;DataField.Name" xml:space="preserve">
+    <value>DataField</value>
+  </data>
+  <data name="&gt;&gt;DataField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataField.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DataField.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="DataField_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DataField_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 29</value>
+  </data>
+  <data name="DataField_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="DataField_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="DataField_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="DataField_Label.Text" xml:space="preserve">
+    <value>Data Field</value>
+  </data>
+  <data name="DataField_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;DataField_Label.Name" xml:space="preserve">
+    <value>DataField_Label</value>
+  </data>
+  <data name="&gt;&gt;DataField_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataField_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DataField_Label.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="P_TabIndex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_TabIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 121</value>
+  </data>
+  <data name="P_TabIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="P_TabIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex.Name" xml:space="preserve">
+    <value>P_TabIndex</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="P_TabIndex_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_TabIndex_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 98</value>
+  </data>
+  <data name="P_TabIndex_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_TabIndex_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="P_TabIndex_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>100021</value>
+  </data>
+  <data name="P_TabIndex_Label.Text" xml:space="preserve">
+    <value>TabIndex</value>
+  </data>
+  <data name="P_TabIndex_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex_Label.Name" xml:space="preserve">
+    <value>P_TabIndex_Label</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_TabIndex_Label.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Label_Title_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="Label_Title_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 368</value>
+  </data>
+  <data name="Label_Title_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 22</value>
+  </data>
+  <data name="Label_Title_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Label_Title_Label.Text" xml:space="preserve">
+    <value>Label:</value>
+  </data>
+  <data name="Label_Title_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Label_Title_Label.Name" xml:space="preserve">
+    <value>Label_Title_Label</value>
+  </data>
+  <data name="&gt;&gt;Label_Title_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label_Title_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Label_Title_Label.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Datatable_Title_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="Datatable_Title_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 276</value>
+  </data>
+  <data name="Datatable_Title_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 22</value>
+  </data>
+  <data name="Datatable_Title_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Datatable_Title_Label.Text" xml:space="preserve">
+    <value>Datatable:</value>
+  </data>
+  <data name="Datatable_Title_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Datatable_Title_Label.Name" xml:space="preserve">
+    <value>Datatable_Title_Label</value>
+  </data>
+  <data name="&gt;&gt;Datatable_Title_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datatable_Title_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Datatable_Title_Label.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="P_TabStop_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P_TabStop_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 98</value>
+  </data>
+  <data name="P_TabStop_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P_TabStop_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="P_TabStop_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>100031</value>
+  </data>
+  <data name="P_TabStop_Label.Text" xml:space="preserve">
+    <value>TabStop</value>
+  </data>
+  <data name="P_TabStop_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop_Label.Name" xml:space="preserve">
+    <value>P_TabStop_Label</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop_Label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Btn_Colors_SELECTED_FORE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 115</value>
+  </data>
+  <data name="Btn_Colors_SELECTED_FORE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_Colors_SELECTED_FORE.TabIndex" type="System.Int32, mscorlib">
+    <value>1108</value>
+  </data>
+  <data name="&gt;&gt;Btn_Colors_SELECTED_FORE.Name" xml:space="preserve">
+    <value>Btn_Colors_SELECTED_FORE</value>
+  </data>
+  <data name="&gt;&gt;Btn_Colors_SELECTED_FORE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Colors_SELECTED_FORE.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_Colors_SELECTED_FORE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Colors_SELECTED_FORE_Label.Text" xml:space="preserve">
+    <value>Selected BackColor:</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE_Label.Name" xml:space="preserve">
+    <value>Colors_SELECTED_FORE_Label</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE_Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Colors_SELECTED_FORE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_SELECTED_FORE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 115</value>
+  </data>
+  <data name="Colors_SELECTED_FORE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="Colors_SELECTED_FORE.TabIndex" type="System.Int32, mscorlib">
+    <value>1107</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE.Name" xml:space="preserve">
+    <value>Colors_SELECTED_FORE</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_SELECTED_FORE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Label_BackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 460</value>
+  </data>
+  <data name="Btn_Label_BackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_Label_BackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1123</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_BackColor.Name" xml:space="preserve">
+    <value>Btn_Label_BackColor</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_BackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_BackColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_BackColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Btn_Label_ForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 437</value>
+  </data>
+  <data name="Btn_Label_ForeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_Label_ForeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1121</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_ForeColor.Name" xml:space="preserve">
+    <value>Btn_Label_ForeColor</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_ForeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_ForeColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_Label_ForeColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 460</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Colors_Label_BackColor_Label.Text" xml:space="preserve">
+    <value>BackColor:</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor_Label.Name" xml:space="preserve">
+    <value>Colors_Label_BackColor_Label</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor_Label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Colors_Label_BackColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_Label_BackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 460</value>
+  </data>
+  <data name="Colors_Label_BackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="Colors_Label_BackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1122</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor.Name" xml:space="preserve">
+    <value>Colors_Label_BackColor</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_BackColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 437</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Colors_Label_ForeColor_Label.Text" xml:space="preserve">
+    <value>ForeColor:</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor_Label.Name" xml:space="preserve">
+    <value>Colors_Label_ForeColor_Label</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor_Label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Colors_Label_ForeColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_Label_ForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 437</value>
+  </data>
+  <data name="Colors_Label_ForeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="Colors_Label_ForeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1120</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor.Name" xml:space="preserve">
+    <value>Colors_Label_ForeColor</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_Label_ForeColor.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="F_Format_Label_TextAlign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="F_Format_Label_TextAlign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 483</value>
+  </data>
+  <data name="F_Format_Label_TextAlign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="F_Format_Label_TextAlign.TabIndex" type="System.Int32, mscorlib">
+    <value>1124</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign.Name" xml:space="preserve">
+    <value>F_Format_Label_TextAlign</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 483</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_Label_TextAlign_Label.Text" xml:space="preserve">
+    <value>Label Text Align:</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign_Label.Name" xml:space="preserve">
+    <value>F_Format_Label_TextAlign_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_Label_TextAlign_Label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DT_ID_Field.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="DT_ID_Field.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 345</value>
+  </data>
+  <data name="DT_ID_Field.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="DT_ID_Field.TabIndex" type="System.Int32, mscorlib">
+    <value>1117</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field.Name" xml:space="preserve">
+    <value>DT_ID_Field</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DT_ID_Field_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DT_ID_Field_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 345</value>
+  </data>
+  <data name="DT_ID_Field_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="DT_ID_Field_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="DT_ID_Field_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="DT_ID_Field_Label.Text" xml:space="preserve">
+    <value>ID Field:</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field_Label.Name" xml:space="preserve">
+    <value>DT_ID_Field_Label</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;DT_ID_Field_Label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="F_Format_TextAlign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="F_Format_TextAlign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 207</value>
+  </data>
+  <data name="F_Format_TextAlign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="F_Format_TextAlign.TabIndex" type="System.Int32, mscorlib">
+    <value>1112</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign.Name" xml:space="preserve">
+    <value>F_Format_TextAlign</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 207</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_TextAlign_Label.Text" xml:space="preserve">
+    <value>Text Align:</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign_Label.Name" xml:space="preserve">
+    <value>F_Format_TextAlign_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;F_Format_TextAlign_Label.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BG_Image_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="BG_Image_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 230</value>
+  </data>
+  <data name="BG_Image_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="BG_Image_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1113</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR.Name" xml:space="preserve">
+    <value>BG_Image_STR</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;BG_Image_STR.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Forced_NextField_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="Forced_NextField_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 161</value>
+  </data>
+  <data name="Forced_NextField_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="Forced_NextField_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1110</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_STR.Name" xml:space="preserve">
+    <value>Forced_NextField_STR</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_STR.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Forced_NextField_STR.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="P_Parent_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="P_Parent_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 23</value>
+  </data>
+  <data name="P_Parent_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 22</value>
+  </data>
+  <data name="P_Parent_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1101</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR.Name" xml:space="preserve">
+    <value>P_Parent_STR</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;P_Parent_STR.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Btn_BackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 92</value>
+  </data>
+  <data name="Btn_BackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_BackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1106</value>
+  </data>
+  <data name="&gt;&gt;Btn_BackColor.Name" xml:space="preserve">
+    <value>Btn_BackColor</value>
+  </data>
+  <data name="&gt;&gt;Btn_BackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_BackColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_BackColor.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Btn_ForeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 69</value>
+  </data>
+  <data name="Btn_ForeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_ForeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1104</value>
+  </data>
+  <data name="&gt;&gt;Btn_ForeColor.Name" xml:space="preserve">
+    <value>Btn_ForeColor</value>
+  </data>
+  <data name="&gt;&gt;Btn_ForeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_ForeColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Btn_ForeColor.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Colors_BackColor_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_BackColor_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 92</value>
+  </data>
+  <data name="Colors_BackColor_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Colors_BackColor_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="Colors_BackColor_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Colors_BackColor_Label.Text" xml:space="preserve">
+    <value>BackColor:</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor_Label.Name" xml:space="preserve">
+    <value>Colors_BackColor_Label</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor_Label.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Colors_BackColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Colors_BackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 92</value>
+  </data>
+  <data name="Colors_BackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 22</value>
+  </data>
+  <data name="Colors_BackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1105</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor.Name" xml:space="preserve">
+    <value>Colors_BackColor</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Colors_BackColor.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="FieldProperties_Title_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="FieldProperties_Title_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FieldProperties_Title_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 22</value>
+  </data>
+  <data name="FieldProperties_Title_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="FieldProperties_Title_Label.Text" xml:space="preserve">
+    <value>Field Properties:</value>
+  </data>
+  <data name="FieldProperties_Title_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;FieldProperties_Title_Label.Name" xml:space="preserve">
+    <value>FieldProperties_Title_Label</value>
+  </data>
+  <data name="&gt;&gt;FieldProperties_Title_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FieldProperties_Title_Label.Parent" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;FieldProperties_Title_Label.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Page_Properties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Page_Properties.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Page_Properties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 564</value>
+  </data>
+  <data name="Page_Properties.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Page_Properties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="&gt;&gt;Page_Properties.Name" xml:space="preserve">
+    <value>Page_Properties</value>
+  </data>
+  <data name="&gt;&gt;Page_Properties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Page_Properties.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;Page_Properties.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="T_GRID_BtnFooter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 0</value>
+  </data>
+  <data name="T_GRID_BtnFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="T_GRID_BtnFooter.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="T_GRID_BtnFooter.TabIndex" type="System.Int32, mscorlib">
+    <value>100024</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_BtnFooter.Name" xml:space="preserve">
+    <value>T_GRID_BtnFooter</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_BtnFooter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_BtnFooter.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_BtnFooter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="T_Text2_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="T_Text2_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="T_Text2_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="T_Text2_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="T_Text2_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="T_Text2_Label.Text" xml:space="preserve">
+    <value>Text 2:</value>
+  </data>
+  <data name="&gt;&gt;T_Text2_Label.Name" xml:space="preserve">
+    <value>T_Text2_Label</value>
+  </data>
+  <data name="&gt;&gt;T_Text2_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_Text2_Label.Parent" xml:space="preserve">
+    <value>T_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;T_Text2_Label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="T_Text2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="T_Text2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 2</value>
+  </data>
+  <data name="T_Text2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 22</value>
+  </data>
+  <data name="T_Text2.TabIndex" type="System.Int32, mscorlib">
+    <value>1251</value>
+  </data>
+  <data name="&gt;&gt;T_Text2.Name" xml:space="preserve">
+    <value>T_Text2</value>
+  </data>
+  <data name="&gt;&gt;T_Text2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_Text2.Parent" xml:space="preserve">
+    <value>T_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;T_Text2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="T_GRID_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 184</value>
+  </data>
+  <data name="T_GRID_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 68</value>
+  </data>
+  <data name="T_GRID_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>1250</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Panel.Name" xml:space="preserve">
+    <value>T_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Panel.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="H_GRID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 277</value>
+  </data>
+  <data name="H_GRID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 160</value>
+  </data>
+  <data name="H_GRID.TabIndex" type="System.Int32, mscorlib">
+    <value>1300</value>
+  </data>
+  <data name="&gt;&gt;H_GRID.Name" xml:space="preserve">
+    <value>H_GRID</value>
+  </data>
+  <data name="&gt;&gt;H_GRID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_GRID.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;H_GRID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="T_GRID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="T_GRID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 160</value>
+  </data>
+  <data name="T_GRID.TabIndex" type="System.Int32, mscorlib">
+    <value>1200</value>
+  </data>
+  <data name="&gt;&gt;T_GRID.Name" xml:space="preserve">
+    <value>T_GRID</value>
+  </data>
+  <data name="&gt;&gt;T_GRID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_GRID.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;T_GRID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="T_SavePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="T_SavePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 232</value>
+  </data>
+  <data name="T_SavePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 15</value>
+  </data>
+  <data name="T_SavePoint.TabIndex" type="System.Int32, mscorlib">
+    <value>1299</value>
+  </data>
+  <data name="&gt;&gt;T_SavePoint.Name" xml:space="preserve">
+    <value>T_SavePoint</value>
+  </data>
+  <data name="&gt;&gt;T_SavePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_SavePoint.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;T_SavePoint.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="H_GRID_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="H_GRID_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 254</value>
+  </data>
+  <data name="H_GRID_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 22</value>
+  </data>
+  <data name="H_GRID_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="H_GRID_Label.Text" xml:space="preserve">
+    <value>Helptexts:</value>
+  </data>
+  <data name="H_GRID_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Label.Name" xml:space="preserve">
+    <value>H_GRID_Label</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Label.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="H_GRID_BtnFooter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 254</value>
+  </data>
+  <data name="H_GRID_BtnFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="H_GRID_BtnFooter.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="H_GRID_BtnFooter.TabIndex" type="System.Int32, mscorlib">
+    <value>100023</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_BtnFooter.Name" xml:space="preserve">
+    <value>H_GRID_BtnFooter</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_BtnFooter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_BtnFooter.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_BtnFooter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="T_GRID_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="T_GRID_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="T_GRID_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 22</value>
+  </data>
+  <data name="T_GRID_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="T_GRID_Label.Text" xml:space="preserve">
+    <value>Texts:</value>
+  </data>
+  <data name="T_GRID_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Label.Name" xml:space="preserve">
+    <value>T_GRID_Label</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Label.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;T_GRID_Label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="H_Btn_Link.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 2</value>
+  </data>
+  <data name="H_Btn_Link.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="H_Btn_Link.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="H_Btn_Link.TabIndex" type="System.Int32, mscorlib">
+    <value>100025</value>
+  </data>
+  <data name="&gt;&gt;H_Btn_Link.Name" xml:space="preserve">
+    <value>H_Btn_Link</value>
+  </data>
+  <data name="&gt;&gt;H_Btn_Link.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_Btn_Link.Parent" xml:space="preserve">
+    <value>H_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_Btn_Link.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="H_Link_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="H_Link_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="H_Link_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="H_Link_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="H_Link_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="H_Link_Label.Text" xml:space="preserve">
+    <value>Link:</value>
+  </data>
+  <data name="&gt;&gt;H_Link_Label.Name" xml:space="preserve">
+    <value>H_Link_Label</value>
+  </data>
+  <data name="&gt;&gt;H_Link_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_Link_Label.Parent" xml:space="preserve">
+    <value>H_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_Link_Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="H_Link.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="H_Link.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 2</value>
+  </data>
+  <data name="H_Link.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 22</value>
+  </data>
+  <data name="H_Link.TabIndex" type="System.Int32, mscorlib">
+    <value>1351</value>
+  </data>
+  <data name="&gt;&gt;H_Link.Name" xml:space="preserve">
+    <value>H_Link</value>
+  </data>
+  <data name="&gt;&gt;H_Link.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_Link.Parent" xml:space="preserve">
+    <value>H_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_Link.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="H_GRID_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 438</value>
+  </data>
+  <data name="H_GRID_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 68</value>
+  </data>
+  <data name="H_GRID_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>1350</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Panel.Name" xml:space="preserve">
+    <value>H_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Panel.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;H_GRID_Panel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="H_SavePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="H_SavePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 486</value>
+  </data>
+  <data name="H_SavePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 15</value>
+  </data>
+  <data name="H_SavePoint.TabIndex" type="System.Int32, mscorlib">
+    <value>1399</value>
+  </data>
+  <data name="&gt;&gt;H_SavePoint.Name" xml:space="preserve">
+    <value>H_SavePoint</value>
+  </data>
+  <data name="&gt;&gt;H_SavePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;H_SavePoint.Parent" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;H_SavePoint.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Page_Language_Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Page_Language_Settings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Page_Language_Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 564</value>
+  </data>
+  <data name="Page_Language_Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Page_Language_Settings.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="&gt;&gt;Page_Language_Settings.Name" xml:space="preserve">
+    <value>Page_Language_Settings</value>
+  </data>
+  <data name="&gt;&gt;Page_Language_Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Page_Language_Settings.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;Page_Language_Settings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ArrangeType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ArrangeType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 100</value>
+  </data>
+  <data name="ArrangeType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="ArrangeType.TabIndex" type="System.Int32, mscorlib">
+    <value>1503</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType.Name" xml:space="preserve">
+    <value>ArrangeType</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ArrangeType_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ArrangeType_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 78</value>
+  </data>
+  <data name="ArrangeType_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ArrangeType_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="ArrangeType_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="ArrangeType_Label.Text" xml:space="preserve">
+    <value>Arrange Type:</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType_Label.Name" xml:space="preserve">
+    <value>ArrangeType_Label</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType_Label.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;ArrangeType_Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ControlName_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ControlName_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 50</value>
+  </data>
+  <data name="ControlName_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ControlName_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1502</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR.Name" xml:space="preserve">
+    <value>ControlName_STR</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Percentage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Percentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 139</value>
+  </data>
+  <data name="Percentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="Percentage.TabIndex" type="System.Int32, mscorlib">
+    <value>1557</value>
+  </data>
+  <data name="&gt;&gt;Percentage.Name" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="&gt;&gt;Percentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Percentage.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;Percentage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Percentage_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="Percentage_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 139</value>
+  </data>
+  <data name="Percentage_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="Percentage_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="Percentage_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="Percentage_Label.Text" xml:space="preserve">
+    <value>Percentage [%]:</value>
+  </data>
+  <data name="&gt;&gt;Percentage_Label.Name" xml:space="preserve">
+    <value>Percentage_Label</value>
+  </data>
+  <data name="&gt;&gt;Percentage_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Percentage_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;Percentage_Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="P2_SpaceInPixel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P2_SpaceInPixel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 116</value>
+  </data>
+  <data name="P2_SpaceInPixel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P2_SpaceInPixel.TabIndex" type="System.Int32, mscorlib">
+    <value>1556</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel.Name" xml:space="preserve">
+    <value>P2_SpaceInPixel</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="P1_SpaceInPixel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P1_SpaceInPixel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 93</value>
+  </data>
+  <data name="P1_SpaceInPixel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P1_SpaceInPixel.TabIndex" type="System.Int32, mscorlib">
+    <value>1555</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel.Name" xml:space="preserve">
+    <value>P1_SpaceInPixel</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 116</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P2_SpaceInPixel_Label.Text" xml:space="preserve">
+    <value>Space in Pixel 2:</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel_Label.Name" xml:space="preserve">
+    <value>P2_SpaceInPixel_Label</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_SpaceInPixel_Label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P1_SpaceInPixel_Label.Text" xml:space="preserve">
+    <value>Space in Pixel 1:</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel_Label.Name" xml:space="preserve">
+    <value>P1_SpaceInPixel_Label</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_SpaceInPixel_Label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="P2_Control_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="P2_Control_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 70</value>
+  </data>
+  <data name="P2_Control_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P2_Control_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1554</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR.Name" xml:space="preserve">
+    <value>P2_Control_STR</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="P2_Control_STR_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P2_Control_STR_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="P2_Control_STR_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P2_Control_STR_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P2_Control_STR_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P2_Control_STR_Label.Text" xml:space="preserve">
+    <value>Control 2:</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR_Label.Name" xml:space="preserve">
+    <value>P2_Control_STR_Label</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_Control_STR_Label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="P2_Koo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P2_Koo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="P2_Koo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P2_Koo.TabIndex" type="System.Int32, mscorlib">
+    <value>1552</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo.Name" xml:space="preserve">
+    <value>P2_Koo</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="P1_Koo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P1_Koo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 1</value>
+  </data>
+  <data name="P1_Koo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P1_Koo.TabIndex" type="System.Int32, mscorlib">
+    <value>1551</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo.Name" xml:space="preserve">
+    <value>P1_Koo</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="P2_Koo_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P2_Koo_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="P2_Koo_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P2_Koo_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P2_Koo_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P2_Koo_Label.Text" xml:space="preserve">
+    <value>Top:</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo_Label.Name" xml:space="preserve">
+    <value>P2_Koo_Label</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P2_Koo_Label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="P1_Koo_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P1_Koo_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="P1_Koo_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P1_Koo_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P1_Koo_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P1_Koo_Label.Text" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo_Label.Name" xml:space="preserve">
+    <value>P1_Koo_Label</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_Koo_Label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="P1_Control_STR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="P1_Control_STR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 47</value>
+  </data>
+  <data name="P1_Control_STR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 22</value>
+  </data>
+  <data name="P1_Control_STR.TabIndex" type="System.Int32, mscorlib">
+    <value>1553</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR.Name" xml:space="preserve">
+    <value>P1_Control_STR</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="P1_Control_STR_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="P1_Control_STR_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 47</value>
+  </data>
+  <data name="P1_Control_STR_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="P1_Control_STR_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="P1_Control_STR_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="P1_Control_STR_Label.Text" xml:space="preserve">
+    <value>Control 1:</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR_Label.Name" xml:space="preserve">
+    <value>P1_Control_STR_Label</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR_Label.Parent" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;P1_Control_STR_Label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="A_GRID_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 310</value>
+  </data>
+  <data name="A_GRID_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 163</value>
+  </data>
+  <data name="A_GRID_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>1550</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Panel.Name" xml:space="preserve">
+    <value>A_GRID_Panel</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Panel.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Panel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ControlName_STR_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ControlName_STR_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 27</value>
+  </data>
+  <data name="ControlName_STR_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="ControlName_STR_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="ControlName_STR_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="ControlName_STR_Label.Text" xml:space="preserve">
+    <value>Controlname</value>
+  </data>
+  <data name="ControlName_STR_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR_Label.Name" xml:space="preserve">
+    <value>ControlName_STR_Label</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR_Label.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;ControlName_STR_Label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="A_SeqNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="A_SeqNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="A_SeqNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="A_SeqNum.TabIndex" type="System.Int32, mscorlib">
+    <value>1501</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum.Name" xml:space="preserve">
+    <value>A_SeqNum</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="A_SeqNum_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="A_SeqNum_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="A_SeqNum_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="A_SeqNum_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="A_SeqNum_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="A_SeqNum_Label.Text" xml:space="preserve">
+    <value>SeqNum</value>
+  </data>
+  <data name="A_SeqNum_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum_Label.Name" xml:space="preserve">
+    <value>A_SeqNum_Label</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum_Label.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_SeqNum_Label.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="A_GRID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="A_GRID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 285</value>
+  </data>
+  <data name="A_GRID.TabIndex" type="System.Int32, mscorlib">
+    <value>1500</value>
+  </data>
+  <data name="&gt;&gt;A_GRID.Name" xml:space="preserve">
+    <value>A_GRID</value>
+  </data>
+  <data name="&gt;&gt;A_GRID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_GRID.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_GRID.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Btn_A_Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 479</value>
+  </data>
+  <data name="Btn_A_Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_A_Up.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_A_Up.TabIndex" type="System.Int32, mscorlib">
+    <value>100030</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Up.Name" xml:space="preserve">
+    <value>Btn_A_Up</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Up.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Up.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Btn_A_Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 479</value>
+  </data>
+  <data name="Btn_A_Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="Btn_A_Down.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_A_Down.TabIndex" type="System.Int32, mscorlib">
+    <value>100029</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Down.Name" xml:space="preserve">
+    <value>Btn_A_Down</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Down.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Down.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;Btn_A_Down.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="A_GRID_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="A_GRID_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="A_GRID_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 22</value>
+  </data>
+  <data name="A_GRID_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>100022</value>
+  </data>
+  <data name="A_GRID_Label.Text" xml:space="preserve">
+    <value>Properties for Field Arrange:</value>
+  </data>
+  <data name="A_GRID_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Label.Name" xml:space="preserve">
+    <value>A_GRID_Label</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Label.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_Label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="A_GRID_BtnFooter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 0</value>
+  </data>
+  <data name="A_GRID_BtnFooter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="A_GRID_BtnFooter.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="A_GRID_BtnFooter.TabIndex" type="System.Int32, mscorlib">
+    <value>100023</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_BtnFooter.Name" xml:space="preserve">
+    <value>A_GRID_BtnFooter</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_BtnFooter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_BtnFooter.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;A_GRID_BtnFooter.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ARRANGE_SavePoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ARRANGE_SavePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 464</value>
+  </data>
+  <data name="ARRANGE_SavePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="ARRANGE_SavePoint.TabIndex" type="System.Int32, mscorlib">
+    <value>1599</value>
+  </data>
+  <data name="&gt;&gt;ARRANGE_SavePoint.Name" xml:space="preserve">
+    <value>ARRANGE_SavePoint</value>
+  </data>
+  <data name="&gt;&gt;ARRANGE_SavePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ARRANGE_SavePoint.Parent" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;ARRANGE_SavePoint.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Page_ArrangeFields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="Page_ArrangeFields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 564</value>
+  </data>
+  <data name="Page_ArrangeFields.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Page_ArrangeFields.Text" xml:space="preserve">
+    <value>Arrange Fields</value>
+  </data>
+  <data name="&gt;&gt;Page_ArrangeFields.Name" xml:space="preserve">
+    <value>Page_ArrangeFields</value>
+  </data>
+  <data name="&gt;&gt;Page_ArrangeFields.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Page_ArrangeFields.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;Page_ArrangeFields.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 590</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel2</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="P_TabStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="P_TabStop.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="P_TabStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1033, 263</value>
+  </data>
+  <data name="P_TabStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="P_TabStop.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop.Name" xml:space="preserve">
+    <value>P_TabStop</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;P_TabStop.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Btn_REFRESH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>637, 492</value>
+  </data>
+  <data name="Btn_REFRESH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="Btn_REFRESH.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Btn_REFRESH.TabIndex" type="System.Int32, mscorlib">
+    <value>100034</value>
+  </data>
+  <data name="&gt;&gt;Btn_REFRESH.Name" xml:space="preserve">
+    <value>Btn_REFRESH</value>
+  </data>
+  <data name="&gt;&gt;Btn_REFRESH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_REFRESH.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Btn_REFRESH.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="Dlg_EditColor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="xType_VB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="xType_VB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 120</value>
+  </data>
+  <data name="xType_VB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="xType_VB.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;xType_VB.Name" xml:space="preserve">
+    <value>xType_VB</value>
+  </data>
+  <data name="&gt;&gt;xType_VB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;xType_VB.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;xType_VB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="FP_Setup_MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 17</value>
+  </metadata>
+  <data name="ToolStrip_RS_Fields0_To_DEBUG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="ToolStrip_RS_Fields0_To_DEBUG.Text" xml:space="preserve">
+    <value>Move RS_Fields0 Items To DEBUG</value>
+  </data>
+  <data name="ToolStrip_DEBUG_To_RS_Fields0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="ToolStrip_DEBUG_To_RS_Fields0.Text" xml:space="preserve">
+    <value>Move DEBUG Items To RS_Fields0</value>
+  </data>
+  <data name="ToolStrip_Generate_SQL_Script.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 22</value>
+  </data>
+  <data name="ToolStrip_Generate_SQL_Script.Text" xml:space="preserve">
+    <value>Generate SQL script</value>
+  </data>
+  <data name="ToolStrip_Special_Functions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="ToolStrip_Special_Functions.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="FP_Setup_MainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FP_Setup_MainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1297, 24</value>
+  </data>
+  <data name="FP_Setup_MainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>100035</value>
+  </data>
+  <data name="FP_Setup_MainMenu.Text" xml:space="preserve">
+    <value>FP_Setup_Menu</value>
+  </data>
+  <data name="&gt;&gt;FP_Setup_MainMenu.Name" xml:space="preserve">
+    <value>FP_Setup_MainMenu</value>
+  </data>
+  <data name="&gt;&gt;FP_Setup_MainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FP_Setup_MainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FP_Setup_MainMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FieldName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FieldName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 57</value>
+  </data>
+  <data name="FieldName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 22</value>
+  </data>
+  <data name="FieldName.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;FieldName.Name" xml:space="preserve">
+    <value>FieldName</value>
+  </data>
+  <data name="&gt;&gt;FieldName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FieldName.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;FieldName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 439</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.TabIndex" type="System.Int32, mscorlib">
+    <value>9999</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.Text" xml:space="preserve">
+    <value>Don't show 0</value>
+  </data>
+  <data name="F_Format_NoShow0_Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0_Label.Name" xml:space="preserve">
+    <value>F_Format_NoShow0_Label</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0_Label.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0_Label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="F_Format_NoShow0.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="F_Format_NoShow0.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="F_Format_NoShow0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 464</value>
+  </data>
+  <data name="F_Format_NoShow0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="F_Format_NoShow0.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0.Name" xml:space="preserve">
+    <value>F_Format_NoShow0</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0.Parent" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;F_Format_NoShow0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SP_MAIN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 24</value>
+  </data>
+  <data name="SP_MAIN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel1.Name" xml:space="preserve">
+    <value>SP_MAIN.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel1.Parent" xml:space="preserve">
+    <value>SP_MAIN</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel2.Name" xml:space="preserve">
+    <value>SP_MAIN.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel2.Parent" xml:space="preserve">
+    <value>SP_MAIN</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SP_MAIN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1241, 555</value>
+  </data>
+  <data name="SP_MAIN.SplitterDistance" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="SP_MAIN.SplitterWidth" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SP_MAIN.TabIndex" type="System.Int32, mscorlib">
+    <value>100036</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Name" xml:space="preserve">
+    <value>SP_MAIN</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SP_MAIN.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1297, 613</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FP_Setup</value>
+  </data>
+  <data name="&gt;&gt;Dlg_EditColor.Name" xml:space="preserve">
+    <value>Dlg_EditColor</value>
+  </data>
+  <data name="&gt;&gt;Dlg_EditColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Special_Functions.Name" xml:space="preserve">
+    <value>ToolStrip_Special_Functions</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Special_Functions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_RS_Fields0_To_DEBUG.Name" xml:space="preserve">
+    <value>ToolStrip_RS_Fields0_To_DEBUG</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_RS_Fields0_To_DEBUG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_DEBUG_To_RS_Fields0.Name" xml:space="preserve">
+    <value>ToolStrip_DEBUG_To_RS_Fields0</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_DEBUG_To_RS_Fields0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Generate_SQL_Script.Name" xml:space="preserve">
+    <value>ToolStrip_Generate_SQL_Script</value>
+  </data>
+  <data name="&gt;&gt;ToolStrip_Generate_SQL_Script.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FP_Services_Setup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
