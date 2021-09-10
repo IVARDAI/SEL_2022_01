@@ -1,12 +1,8 @@
 ﻿Imports System.IO
-Imports System.Data
 Imports System.Data.SqlClient
 Imports Microsoft.Reporting.WinForms
 Imports System.Drawing.Imaging
 Imports System.Drawing.Printing
-Imports System.Threading
-Imports SEL_FP_2019_02
-Imports Newtonsoft.Json
 
 Public Structure Struct_FP_L_Dispo_Module
     Dim RS_Type As String

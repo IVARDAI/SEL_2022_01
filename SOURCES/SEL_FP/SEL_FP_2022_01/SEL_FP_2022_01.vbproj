@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E37884D1-C988-46F0-91FF-88CA7DD242B3}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>SEL_FP_2019_02</RootNamespace>
-    <AssemblyName>SEL_FP_2019_02</AssemblyName>
+    <RootNamespace>SEL_FP_2022_01</RootNamespace>
+    <AssemblyName>SEL_FP_2022_01</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -33,7 +33,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>SEL_FP_2019_02.xml</DocumentationFile>
+    <DocumentationFile>SEL_FP_2022_01.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -43,7 +43,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>SEL_FP_2019_02.xml</DocumentationFile>
+    <DocumentationFile>SEL_FP_2022_01.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -386,6 +386,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -1108,7 +1108,8 @@ Public Module FP_Globals
     'Public Const VERS = "SEL_2018_01"       '2017-11-05
     'Public Const VERS = "SEL_2018_02"       '2018-11-12
     'Public Const VERS = "SEL_2019_01"       '2019-04-12
-    Public Const VERS = "SEL_2019_02"
+    'Public Const VERS = "SEL_2019_02"       '2021-09-10
+    Public Const VERS = "SEL_2022_01"
     Public VERS_LOCAL_DB As Integer = -1
     Public Const SRV = "0.00"
     Public Const ProgramName$ = "SELEXPED"
